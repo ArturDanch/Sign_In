@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.sing {
+.sign {
   margin-right: auto;
   margin-left: auto;
   width: 400px;
@@ -19,7 +19,7 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-.sing__in {
+.sign__in {
   height: 100px;
   background-color: $color-green;
   border-radius: 15px 15px 0 0;
@@ -29,7 +29,7 @@ body {
   }
 }
 
-.sing__input{
+.sign__input{
   width: 310px;
   height: 410px;
   margin-right: auto;
@@ -42,6 +42,9 @@ body {
     border: none;
     border-radius: 25px;
     margin-top: 10px;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
   }
   button:hover {
     transition: 0.2s;
@@ -50,7 +53,7 @@ body {
   }
 }
 
-.sing__input__forms {
+.sign__input__forms {
   margin-top: 40px;
   input {
     width: 280px;
@@ -68,7 +71,7 @@ body {
   }
 }
 
-.sing__forgot {
+.sign__forgot {
 
   p {
     text-align: right;
@@ -83,7 +86,7 @@ body {
   }
 }
 
-.sing__dont {
+.sign__dont {
   padding-top: 120px;
   font-size: 12px;
   p {
