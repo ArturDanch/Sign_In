@@ -1,23 +1,28 @@
 body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
   font-family: 'Montserrat', sans-serif; }
 
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center; }
+
 .sign {
-  margin-right: auto;
-  margin-left: auto;
   width: 400px;
   height: 540px;
   text-align: center;
-  margin-top: 100px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); }
 
 .sign__in {
+  display: block;
   height: 100px;
   background-color: #57b847;
   border-radius: 15px 15px 0 0;
-  color: #fff; }
+  color: #fff;
+  margin-top: -40px; }
   .sign__in h2 {
     padding-top: 35px; }
 
@@ -37,6 +42,8 @@ body {
     font-weight: 700;
     font-size: 10px;
     text-transform: uppercase; }
+  .sign__input :focus {
+    outline: none; }
   .sign__input button:hover {
     transition: 0.2s;
     background: #9e9e9e;
@@ -52,8 +59,12 @@ body {
     margin: 6px 0;
     border-style: none;
     padding-left: 30px;
-    font-weight: 700; }
-  .sign__input__forms input:hover {
+    font-weight: 700;
+    display: inline;
+    outline: hidden; }
+  .sign__input__forms :focus {
+    outline: none; }
+  .sign__input__forms :hover {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     transition: 0.2s; }
 
